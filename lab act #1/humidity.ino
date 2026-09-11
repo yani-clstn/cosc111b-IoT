@@ -1,3 +1,4 @@
+// import libraries
 #include <WiFi.h>
 #include <WebServer.h>
 #include <DHT.h>
@@ -87,6 +88,7 @@ const char index_html[] PROGMEM = R"rawliteral(
 </html>
 )rawliteral";
 
+// Serial monitor logs
 void setup() {
     Serial.begin(115200); // Set this 115200 baud in serial monitor.
     Serial.println("  ESP32 STARTING...");
