@@ -16,6 +16,7 @@ A lightweight IoT project built using the ESP32 micro-controller to stream real-
 * **Prototyping:**
 * Breadboard
 * Jumper Wires (Male-to-Male, Male-to-Female, Female-to-Female)
+* LED
 
 
 * **Connectivity:** Mobile Hotspot, Pocket Wi-Fi, or local local Wi-Fi network
@@ -56,7 +57,7 @@ Open the Library Manager in Arduino IDE (**Tools** > **Manage Libraries...** or 
 
 ## 🚀 Quick Start Guide
 
-1. **Wire the Circuit:** Connect the DHT11 and PIR sensor to the designated GPIO pins on your ESP32 board using the appropriate jumper wires.
+1. **Wire the Circuit:** Connect the DHT11, PIR sensor, and LED to the designated GPIO pins on your ESP32 board using the appropriate jumper wires.
 2. **Configure Network:** Open the project sketch in Arduino IDE and update the Wi-Fi credentials (`SSID` and `Password`) to match your local network or mobile hotspot.
 3. **Upload Sketch:** Select your ESP32 board model and COM port under **Tools**, then click **Upload**.
 4. **View Output:** Open the Serial Monitor (`115200` baud rate) to find the IP address assigned to your ESP32. Navigate to that IP address in any web browser to view the live dashboard.
